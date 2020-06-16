@@ -1,0 +1,25 @@
+package DataStructures;
+
+import java.util.LinkedList;
+
+public class Graphs {
+	private int v;
+	private LinkedList<Integer> adj;
+	
+	public Graphs(int v){
+		this.v = v;
+	}
+	
+	private void addAdj(int v) {
+		
+		adj = new LinkedList<Integer>();
+		
+	}
+	
+	public boolean addVertex(int v , int w) {
+		
+		
+	}
+	
+	
+}

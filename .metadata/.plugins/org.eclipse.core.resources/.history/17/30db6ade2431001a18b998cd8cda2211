@@ -1,0 +1,17 @@
+package DataStructures;
+
+public class DFS {
+	boolean[] marked;
+	
+	public DFS(Graphs G , int staringVertex) {
+		
+		marked = new boolean[G.getV()];
+		
+	}
+	
+	private void dfs() {
+		
+		
+	}
+	
+}

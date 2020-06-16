@@ -1,0 +1,14 @@
+package DataStructures;
+
+import java.util.LinkedList;
+
+public class Graphs {
+	int v;
+	LinkedList adj;
+	
+	public Graphs(int v){
+		this.v = v;
+	}
+	
+	
+}

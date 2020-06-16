@@ -1,0 +1,34 @@
+package DataStructures;
+
+public class DFS {
+	boolean[] marked;
+	Stack stack;
+	
+	public DFS(Graphs G , int startingVertex) {
+		
+		marked = new boolean[G.getV()];
+		stack = new Stack();
+		
+		dfs(G , startingVertex);
+		
+	}
+	
+	private void dfs(Graphs G , int startingVertex) {
+		
+		marked[startingVertex] = true;
+		
+		System.out.println(startingVertex + 1);
+		stack.push(startingVertex);
+		
+		while(!stack.isEmpty()) {
+			for(int w : G.getAdj(stack.pop())) {
+				
+				if(!marked[w]){
+					dfs(G , w);
+				}
+			}
+		}
+		
+	}
+	
+}

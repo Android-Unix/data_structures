@@ -1,0 +1,22 @@
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+
+public class ImageCrop {
+	public static void croped(File input , File output){
+
+		  BufferedImage bufferedImage =null;
+		  try
+		      {
+		      bufferedImage = ImageIO.read(input);
+		      BufferedImage image = bufferedImage.getSubimage(0,0,100,100);
+		      ImageIO.write(image,"jpeg", output);
+		    }
+		  catch (IOException e) 
+		      {
+		          System.out.println(e);
+		      }    
+		  }
+}

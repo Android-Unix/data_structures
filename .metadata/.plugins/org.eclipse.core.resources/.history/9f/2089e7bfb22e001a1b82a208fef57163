@@ -1,0 +1,11 @@
+package DataStructures;
+
+public class Graphs {
+	int v;
+	
+	public Graphs(int v){
+		this.v = v;
+	}
+	
+	
+}

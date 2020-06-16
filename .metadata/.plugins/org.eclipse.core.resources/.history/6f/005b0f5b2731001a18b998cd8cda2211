@@ -1,0 +1,25 @@
+package DataStructures;
+
+public class TestGraphs {
+
+	public static void main(String[] a) {
+		
+		Graphs g = new Graphs(7);
+		
+		g.addEdge(0 , 1);
+		g.addEdge(0 , 2);
+		g.addEdge(0 , 4);
+		g.addEdge(0 , 3);
+		
+		g.addEdge(1 , 6);
+		
+		
+		g.addEdge(1 , 5);
+		
+		
+		g.print();
+		
+		System.out.println();
+		DFS dfs = new DFS(g , 0);
+	}
+}

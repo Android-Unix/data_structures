@@ -1,0 +1,54 @@
+package DataStructures;
+
+public class Queue {
+	
+	private Node front;
+	private Node rear;
+	
+	int size;
+	
+	public boolean isEmpty()
+	{
+		if(front == null && rear == null && size == 0)
+			return true;
+		
+		else
+			return false;
+	}
+	
+	public void printQueue()
+	{
+		if(isEmpty())
+			System.out.println("Empty Queue");
+		
+		else
+		{
+			Node temp = front;
+			while(temp != null)
+			{
+				System.out.println(temp.getData());
+				temp = temp.getNext();
+			}
+		}
+	}
+	
+	public void enQueue(int data)
+	{
+		Node node = new Node(data);
+		if(isEmpty())
+		{
+			front = node;
+			rear = node;
+			size++;
+			return;
+		}
+		else
+		{
+			front.setNext(node);
+			rear = node;
+			size++;
+			return;	
+		}
+	}
+
+}

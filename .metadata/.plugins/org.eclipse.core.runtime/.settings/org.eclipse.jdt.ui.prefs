@@ -1,0 +1,14 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Stack"><rhs name\="Stack"/></lhs><lhs name\="MyStack"><rhs name\="MyStack"/></lhs><lhs name\="java.util.Map"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="org.json.simple.JSONAware"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="org.json.simple.JSONStreamAware"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="java.util.HashMap"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="org.json.simple.JSONObject"><rhs name\="org.json.simple.JSONObject"/></lhs><lhs name\="DataStructures.Stack"><rhs name\="DataStructures.Stack"/></lhs><lhs name\="DataStructures.LinkedList"><rhs name\="DataStructures.LinkedList"/></lhs><lhs name\="DataStructures.BinaryTree"><rhs name\="DataStructures.BinaryTree"/></lhs><lhs name\="Problems.QueueUsingStack"><rhs name\="Problems.QueueUsingStack"/></lhs><lhs name\="DataStructures.BinaryTreeNode"><rhs name\="DataStructures.BinaryTreeNode"/></lhs><lhs name\="Problems.ArrayBasedStack"><rhs name\="Problems.ArrayBasedStack"/></lhs><lhs name\="Problems.ArrayBasedQueue"><rhs name\="Problems.ArrayBasedQueue"/></lhs><lhs name\="DataStructures.BinarySearchTree"><rhs name\="DataStructures.BinarySearchTree"/></lhs><lhs name\="DataStructures.OrderedLinkedList"><rhs name\="DataStructures.OrderedLinkedList"/></lhs><lhs name\="Problems.StaircaseProblem"><rhs name\="Problems.StaircaseProblem"/></lhs><lhs name\="java.lang.Number"><rhs name\="java.math.BigInteger"/></lhs><lhs name\="java.math.BigInteger"><rhs name\="java.math.BigInteger"/></lhs><lhs name\="DataStructures.IsCyclic"><rhs name\="DataStructures.IsCyclic"/></lhs></history>
+content_assist_number_of_computers=18
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=60,60,60
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=18
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

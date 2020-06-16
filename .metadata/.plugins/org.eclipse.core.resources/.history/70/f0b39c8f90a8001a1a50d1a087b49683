@@ -1,0 +1,28 @@
+import java.io.File;
+
+public class TestImageComapre 
+{ 
+	public static void main(String[] args) {
+		File inputImage1 = new File("/home/smart/ProjectCode/images/img1.jpeg");
+		File outputImage1 = new File("/home/smart/ProjectCode/images/output1.jpeg");
+		
+		File inputImage2 = new File("/home/smart/ProjectCode/images/img2.jpeg");
+		File outputImage2 = new File("/home/smart/ProjectCode/images/output2.jpeg");
+		 
+		//Read the images and convert them into greyscale
+		
+		GreyScaleConverter.grayScale(inputImage1, outputImage1);
+		GreyScaleConverter.grayScale(inputImage2, outputImage2);
+		
+		// Convert the greyscaled image and crop them
+		
+		File cropedOutputImage1 = new File("/home/smart/ProjectCode/images/cropedImage1.jpeg");
+		File cropedOutputImage2 = new File("/home/smart/ProjectCode/images/cropedImage2.jpeg");
+		
+		//Take the converted greyScaked Images and crop them  and compare
+		ImageCrop.crop(cropedOutputImage1, cropedOutputImage2);
+		
+		CompareImages.comp(outputImage1, outputImage2);
+		System.out.println("done");
+	}    
+}

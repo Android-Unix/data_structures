@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Stack"/>
+    <fullyQualifiedTypeName name="MyStack"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="Problems.MegreLinkedLists"/>
+    <fullyQualifiedTypeName name="DataStructures.LinkedList"/>
+    <fullyQualifiedTypeName name="Problems.CheckPalindrome"/>
+    <fullyQualifiedTypeName name="Problems.AddLL"/>
+    <fullyQualifiedTypeName name="Problems.MergeLinkedLists"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="DataStructures.DeleteTree"/>
+    <fullyQualifiedTypeName name="DataStructures.Stack"/>
+    <fullyQualifiedTypeName name="DataStructures.Node"/>
+    <fullyQualifiedTypeName name="Problems.QueueUsingStack"/>
+    <fullyQualifiedTypeName name="DataStructures.BinaryTree"/>
+    <fullyQualifiedTypeName name="Problems.ArrayBasedStack"/>
+    <fullyQualifiedTypeName name="Problems.ArrayBasedQueue"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.SearchAlgorithm"/>
+    <fullyQualifiedTypeName name="DataStructures.BinarySearchTree"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.api.tree.BinaryTree"/>
+    <fullyQualifiedTypeName name="DataStructures.BinaryTreeNode"/>
+    <fullyQualifiedTypeName name="Problems.DeleteTree"/>
+    <fullyQualifiedTypeName name="Problems.BubbleSort"/>
+    <fullyQualifiedTypeName name="Trilateration"/>
+    <fullyQualifiedTypeName name="DataStructures.OrderedLinkedList"/>
+    <fullyQualifiedTypeName name="Problems.StaircaseProblem"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="DataStructures.IsCyclic"/>
+    <fullyQualifiedTypeName name="Problems.Recaman"/>
+</qualifiedTypeNameHistroy>

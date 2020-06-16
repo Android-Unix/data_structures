@@ -1,0 +1,40 @@
+package Problems;
+
+import java.util.Scanner;
+
+public class PatternProblem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		int cols = scanner.nextInt();
+		
+		int rows = (int)(Math.floor(cols / 2 )+ 1);
+		
+		System.out.println(cols + " , " +rows);
+		char[][] m = new char[rows][cols];
+		
+		for(int i = 0; i < rows; i++) {
+			if(i == 0) {
+				for(int j = 0; j < cols; j++) {
+					m[i][j] = '*';
+				}
+			}
+			else {
+				for(int j = i; j <= cols - i - 1; j++) {
+					m[i][j] = '*';
+					}
+				}
+			}
+
+		
+		for(int i = 0; i < rows; i++) {
+			for(int j = 0; j < cols; j++) {
+				System.out.print(m[i][j]);
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+import java.io.File;
+
+public class TestImageComapre 
+{ 
+	public static void main(String[] args) {
+		File a = new File("/home/smart/Videos/index.jpeg");
+		File a1 = new File("/home/smart/Documents/index1.jpeg");
+		
+		File b = new File("/home/smart/Videos/index1.jpeg");
+		File b1 = new File("/home/smart/Documents/index2.jpeg");
+		GreyScaleConverter.grayScale(a, a1);
+		GreyScaleConverter.grayScale(b, b1);
+		
+		//Crop.croped(a1, b1);
+
+		CompareImages.comp(a1, b1);
+		System.out.println("done");
+	}    
+}

@@ -1,0 +1,12 @@
+import org.json.simple.JSONObject;
+
+public class JSON {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JSONObject obj = new JSONObject();
+		System.out.println(obj + "");
+
+	}
+
+}
